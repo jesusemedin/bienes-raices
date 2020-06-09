@@ -179,7 +179,8 @@ background-color: #71b100;
 
     padding: 2rem;
 }
-.contenido-anuncio h3, p
+.contenido-anuncio h3, 
+p
 {
     margin: 0;
 }
@@ -187,6 +188,23 @@ background-color: #71b100;
 {
     color: #71b100;
     font-weight: 700;
+}
+.iconos-caracteristicas
+{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.iconos-caracteristicas li
+{
+    /* flex: 1; */
+    display: flex;
+
+}
+.iconos-caracteristicas li img
+{
+    margin-right: 2rem;
 }
 .ver-todas
 {
