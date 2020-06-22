@@ -408,7 +408,7 @@ line-height: 1.4;
 .site-footer
 {
     padding-top: 1rem;
-    height: 5rem;
+    /* height: 5rem; */
     background-color: #333333;
     margin: 0;
 }
